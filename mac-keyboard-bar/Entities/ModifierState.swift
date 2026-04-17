@@ -4,7 +4,7 @@ struct ModifierState: Equatable {
 
     // MARK: - Keys
 
-    enum Key {
+    enum Key: Equatable {
         case shift, command, option, control, fn
     }
 
