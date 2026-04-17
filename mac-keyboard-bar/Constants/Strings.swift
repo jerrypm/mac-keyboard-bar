@@ -3,11 +3,15 @@ import Foundation
 enum Strings {
     static let empty = ""
 
+    // MARK: - App
+
     enum App {
         static let name = "Keyboard Bar"
         static let quit = "Quit"
         static let about = "About"
     }
+
+    // MARK: - MenuBar
 
     enum MenuBar {
         static let iconSymbol = "keyboard"
@@ -17,9 +21,13 @@ enum Strings {
         static let openAccessibilitySettings = "Open Accessibility Settings…"
     }
 
+    // MARK: - Keyboard
+
     enum Keyboard {
         static let title = "Floating Keyboard"
     }
+
+    // MARK: - Accessibility
 
     enum Accessibility {
         static let permissionTitle = "Accessibility Access Required"
@@ -27,6 +35,8 @@ enum Strings {
         static let permissionButtonOpen = "Open System Settings"
         static let permissionButtonCancel = "Cancel"
     }
+
+    // MARK: - Defaults
 
     enum Defaults {
         static let windowFrameKey = "keyboard.window.frame"
