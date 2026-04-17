@@ -16,16 +16,19 @@ struct KeyButtonView: View {
         } label: {
             Text(key.label)
                 .font(.system(size: 14, weight: .medium, design: .rounded))
-                .frame(
-                    width: Layout.Keyboard.keyUnitSize * key.widthUnits
-                        + Layout.Keyboard.keySpacing * (key.widthUnits - 1),
-                    height: Layout.Keyboard.keyUnitSize
-                )
+                .frame(width: width, height: Layout.Keyboard.keyUnitSize)
                 .background(background)
                 .foregroundStyle(.primary)
                 .clipShape(RoundedRectangle(cornerRadius: 8))
         }
         .buttonStyle(.plain)
+    }
+
+    // MARK: - Layout
+
+    private var width: CGFloat {
+        Layout.Keyboard.keyUnitSize * key.widthUnits
+            + Layout.Keyboard.keySpacing * (key.widthUnits - 1)
     }
 
     private var background: some View {
