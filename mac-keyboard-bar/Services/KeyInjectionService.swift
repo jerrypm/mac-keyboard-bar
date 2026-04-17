@@ -1,9 +1,13 @@
 import CoreGraphics
 
 protocol KeyInjecting {
-    func inject(keyCode: CGKeyCode, flags: CGEventFlags)
+    nonisolated func inject(keyCode: CGKeyCode, flags: CGEventFlags)
 }
 
+/// `nonisolated` because CGEvent APIs are thread-safe and this type holds no
+/// shared mutable state. Opting out of the project-wide MainActor default also
+/// avoids a Swift runtime crash in `swift_task_deinitOnExecutorImpl` when the
+/// service is deallocated off-main (e.g., in test teardown).
 nonisolated final class KeyInjectionService: KeyInjecting {
 
     // MARK: - Types
