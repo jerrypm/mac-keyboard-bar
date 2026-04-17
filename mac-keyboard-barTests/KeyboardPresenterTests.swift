@@ -6,7 +6,10 @@ final class KeyboardPresenterTests: XCTestCase {
 
     // MARK: - Test Doubles
 
-    final class FakeInteractor: KeyboardInteractorInput {
+    /// Real `KeyboardInteractor` is `nonisolated final class` — fakes must
+    /// match to avoid `swift_task_deinitOnExecutorImpl` crashes on teardown
+    /// under the project's MainActor + NonisolatedNonsendingByDefault flags.
+    nonisolated final class FakeInteractor: KeyboardInteractorInput, @unchecked Sendable {
         weak var output: KeyboardInteractorOutput?
         var calls: [(CGKeyCode, CGEventFlags)] = []
         var trusted = true
@@ -17,7 +20,7 @@ final class KeyboardPresenterTests: XCTestCase {
         }
     }
 
-    final class FakeRouter: KeyboardRouterInput {
+    nonisolated final class FakeRouter: KeyboardRouterInput, @unchecked Sendable {
         var shown = false
         var alertShown = false
         var isVisible: Bool { shown }

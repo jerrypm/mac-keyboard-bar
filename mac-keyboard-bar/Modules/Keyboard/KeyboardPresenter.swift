@@ -1,6 +1,11 @@
 import CoreGraphics
 
-final class KeyboardPresenter: KeyboardPresenterInput {
+/// `nonisolated` because this type holds only value-typed state and a
+/// closure; it runs on whatever thread the caller uses. Opting out of the
+/// project-wide MainActor default avoids a Swift runtime crash in
+/// `swift_task_deinitOnExecutorImpl` when the presenter is deallocated
+/// off-main (e.g., in test teardown).
+nonisolated final class KeyboardPresenter: KeyboardPresenterInput {
 
     // MARK: - Dependencies
 
