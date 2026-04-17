@@ -11,9 +11,16 @@ protocol KeyboardPresenterInput: AnyObject {
 // MARK: - Presenter -> Interactor
 
 protocol KeyboardInteractorInput: AnyObject {
+    var output: KeyboardInteractorOutput? { get set }
     func sendKey(keyCode: CGKeyCode, flags: CGEventFlags)
     var hasAccessibilityPermission: Bool { get }
     func requestAccessibilityPermission()
+}
+
+// MARK: - Interactor -> Presenter
+
+protocol KeyboardInteractorOutput: AnyObject {
+    func accessibilityPermissionDidChange(_ granted: Bool)
 }
 
 // MARK: - Presenter -> Router
