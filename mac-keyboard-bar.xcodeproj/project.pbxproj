@@ -6,8 +6,24 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		2D47EFC0BC4B254A42F3271F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F28DD075ADE2C02698D035AE /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		176ED44822C0E5420B011824 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1300E78B2F9244FA00238DF3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1300E7922F9244FA00238DF3;
+			remoteInfo = "mac-keyboard-bar";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		1300E7932F9244FA00238DF3 /* mac-keyboard-bar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mac-keyboard-bar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F28DD075ADE2C02698D035AE /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		FB07EEF23AAE72F6475C00AC /* mac-keyboard-barTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "mac-keyboard-barTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -15,13 +31,17 @@
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
-				"mac-keyboard-bar.entitlements",
 			);
 			target = 1300E7922F9244FA00238DF3 /* mac-keyboard-bar */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+		1227EF276119337821AC63AD /* mac-keyboard-barTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "mac-keyboard-barTests";
+			sourceTree = "<group>";
+		};
 		1300E7952F9244FA00238DF3 /* mac-keyboard-bar */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
@@ -40,14 +60,32 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		68A31AAE396C7F870D2E4DE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D47EFC0BC4B254A42F3271F /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0DF6416C58F3284E7D3E73DD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				506EA0A72C2CFE70C365444E /* OS X */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		1300E78A2F9244FA00238DF3 = {
 			isa = PBXGroup;
 			children = (
 				1300E7952F9244FA00238DF3 /* mac-keyboard-bar */,
 				1300E7942F9244FA00238DF3 /* Products */,
+				0DF6416C58F3284E7D3E73DD /* Frameworks */,
+				1227EF276119337821AC63AD /* mac-keyboard-barTests */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,8 +93,17 @@
 			isa = PBXGroup;
 			children = (
 				1300E7932F9244FA00238DF3 /* mac-keyboard-bar.app */,
+				FB07EEF23AAE72F6475C00AC /* mac-keyboard-barTests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		506EA0A72C2CFE70C365444E /* OS X */ = {
+			isa = PBXGroup;
+			children = (
+				F28DD075ADE2C02698D035AE /* Cocoa.framework */,
+			);
+			name = "OS X";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -78,11 +125,30 @@
 				1300E7952F9244FA00238DF3 /* mac-keyboard-bar */,
 			);
 			name = "mac-keyboard-bar";
-			packageProductDependencies = (
-			);
 			productName = "mac-keyboard-bar";
 			productReference = 1300E7932F9244FA00238DF3 /* mac-keyboard-bar.app */;
 			productType = "com.apple.product-type.application";
+		};
+		8C223150F25E56CEEF2BF71B /* mac-keyboard-barTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13816644697DB1CE6C68724E /* Build configuration list for PBXNativeTarget "mac-keyboard-barTests" */;
+			buildPhases = (
+				63CA64C95A14BB4E86928C32 /* Sources */,
+				68A31AAE396C7F870D2E4DE3 /* Frameworks */,
+				5684D92DF8C4F1643EB9F695 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				391A33D93709AE9389A2DE43 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				1227EF276119337821AC63AD /* mac-keyboard-barTests */,
+			);
+			name = "mac-keyboard-barTests";
+			productName = "mac-keyboard-barTests";
+			productReference = FB07EEF23AAE72F6475C00AC /* mac-keyboard-barTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -114,12 +180,20 @@
 			projectRoot = "";
 			targets = (
 				1300E7922F9244FA00238DF3 /* mac-keyboard-bar */,
+				8C223150F25E56CEEF2BF71B /* mac-keyboard-barTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		1300E7912F9244FA00238DF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5684D92DF8C4F1643EB9F695 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -136,7 +210,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		63CA64C95A14BB4E86928C32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		391A33D93709AE9389A2DE43 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "mac-keyboard-bar";
+			target = 1300E7922F9244FA00238DF3 /* mac-keyboard-bar */;
+			targetProxy = 176ED44822C0E5420B011824 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		1300E79D2F9244FC00238DF3 /* Debug */ = {
@@ -323,6 +413,60 @@
 			};
 			name = Release;
 		};
+		6F71016343E12F83A73C9692 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3KUNS8FNFR;
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jerrypm.mac-keyboard-barTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mac-keyboard-bar.app/Contents/MacOS/mac-keyboard-bar";
+			};
+			name = Release;
+		};
+		DF6618C9326CE4230B88D8DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3KUNS8FNFR;
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jerrypm.mac-keyboard-barTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mac-keyboard-bar.app/Contents/MacOS/mac-keyboard-bar";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -340,6 +484,15 @@
 			buildConfigurations = (
 				1300E7A02F9244FC00238DF3 /* Debug */,
 				1300E7A12F9244FC00238DF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13816644697DB1CE6C68724E /* Build configuration list for PBXNativeTarget "mac-keyboard-barTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F71016343E12F83A73C9692 /* Release */,
+				DF6618C9326CE4230B88D8DE /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
