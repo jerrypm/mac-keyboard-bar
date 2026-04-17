@@ -10,9 +10,23 @@
 		1300E7932F9244FA00238DF3 /* mac-keyboard-bar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mac-keyboard-bar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		13A1B0012F9244FA00238DF3 /* Exceptions for "mac-keyboard-bar" folder in "mac-keyboard-bar" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+				"mac-keyboard-bar.entitlements",
+			);
+			target = 1300E7922F9244FA00238DF3 /* mac-keyboard-bar */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		1300E7952F9244FA00238DF3 /* mac-keyboard-bar */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				13A1B0012F9244FA00238DF3 /* Exceptions for "mac-keyboard-bar" folder in "mac-keyboard-bar" target */,
+			);
 			path = "mac-keyboard-bar";
 			sourceTree = "<group>";
 		};
@@ -250,17 +264,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "mac-keyboard-bar/mac-keyboard-bar.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3KUNS8FNFR;
-				ENABLE_APP_SANDBOX = YES;
+				ENABLE_APP_SANDBOX = NO;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INFOPLIST_KEY_NSMainNibFile = MainMenu;
-				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "mac-keyboard-bar/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -283,17 +296,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "mac-keyboard-bar/mac-keyboard-bar.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3KUNS8FNFR;
-				ENABLE_APP_SANDBOX = YES;
+				ENABLE_APP_SANDBOX = NO;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INFOPLIST_KEY_NSMainNibFile = MainMenu;
-				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "mac-keyboard-bar/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",

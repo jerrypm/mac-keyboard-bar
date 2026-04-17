@@ -1,30 +1,17 @@
-//
-//  AppDelegate.swift
-//  mac-keyboard-bar
-//
-//  Created by Jeri Purnama Maulid on 17/04/26.
-//
-
 import Cocoa
 
-@main
-class AppDelegate: NSObject, NSApplicationDelegate {
+final class AppDelegate: NSObject, NSApplicationDelegate {
 
-    @IBOutlet var window: NSWindow!
+    // MARK: - Properties
+    // (populated by Builders in Task 19)
 
+    // MARK: - Lifecycle
 
-    func applicationDidFinishLaunching(_ aNotification: Notification) {
-        // Insert code here to initialize your application
-    }
-
-    func applicationWillTerminate(_ aNotification: Notification) {
-        // Insert code here to tear down your application
+    func applicationDidFinishLaunching(_ notification: Notification) {
+        // Task 19 wires here
     }
 
     func applicationSupportsSecureRestorableState(_ app: NSApplication) -> Bool {
-        return true
+        true
     }
-
-
 }
-
