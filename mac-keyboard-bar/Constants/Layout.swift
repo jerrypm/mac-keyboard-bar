@@ -1,6 +1,8 @@
 import CoreGraphics
 
-enum Layout {
+/// `nonisolated` so `nonisolated` services can read immutable layout constants
+/// without a main-actor hop.
+nonisolated enum Layout {
 
     // MARK: - Keyboard
 

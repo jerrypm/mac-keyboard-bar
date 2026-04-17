@@ -1,6 +1,8 @@
 import Foundation
 
-enum Strings {
+/// `nonisolated` so `nonisolated` services (e.g., `WindowPositionService`) can
+/// reference these immutable string constants without a main-actor hop.
+nonisolated enum Strings {
     static let empty = ""
 
     // MARK: - App
