@@ -12,6 +12,14 @@ final class ModifierStateTests: XCTestCase {
         XCTAssertFalse(s.fn)
     }
 
+    func test_isActive_returnsFieldValue() {
+        var s = ModifierState()
+        XCTAssertFalse(s.isActive(.command))
+        s.command = true
+        XCTAssertTrue(s.isActive(.command))
+        XCTAssertFalse(s.isActive(.shift))
+    }
+
     func test_toggle_flipsFlag() {
         var s = ModifierState()
         s.toggle(.shift)

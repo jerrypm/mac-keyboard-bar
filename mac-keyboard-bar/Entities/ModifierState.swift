@@ -16,6 +16,18 @@ struct ModifierState: Equatable {
     var control = false
     var fn = false
 
+    // MARK: - Queries
+
+    func isActive(_ key: Key) -> Bool {
+        switch key {
+        case .shift:   return shift
+        case .command: return command
+        case .option:  return option
+        case .control: return control
+        case .fn:      return fn
+        }
+    }
+
     // MARK: - Mutations
 
     mutating func toggle(_ key: Key) {

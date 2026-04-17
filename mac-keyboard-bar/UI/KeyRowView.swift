@@ -22,12 +22,6 @@ struct KeyRowView: View {
 
     private func isActive(_ key: KeyDefinition) -> Bool {
         guard case .modifier(let mod) = key.kind else { return false }
-        switch mod {
-        case .shift:   return activeModifiers.shift
-        case .command: return activeModifiers.command
-        case .option:  return activeModifiers.option
-        case .control: return activeModifiers.control
-        case .fn:      return activeModifiers.fn
-        }
+        return activeModifiers.isActive(mod)
     }
 }
