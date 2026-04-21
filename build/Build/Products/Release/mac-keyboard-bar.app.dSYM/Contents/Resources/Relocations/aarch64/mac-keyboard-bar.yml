@@ -1,0 +1,5 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/jeripurnamamaulid/Documents/15_MacOS_Projects/mac-keyboard-bar/build/Build/Products/Release/mac-keyboard-bar.app/Contents/MacOS/mac-keyboard-bar'
+relocations:     []
+...

@@ -1,0 +1,2 @@
+Target dependency graph (1 target)
+Target 'mac-keyboard-bar' in project 'mac-keyboard-bar' (no dependencies)

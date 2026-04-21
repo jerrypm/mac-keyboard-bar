@@ -1,0 +1,136 @@
+{
+  "" : {
+    "const-values" : "/Users/jeripurnamamaulid/Documents/15_MacOS_Projects/mac-keyboard-bar/build/Build/Intermediates.noindex/mac-keyboard-bar.build/Release/mac-keyboard-bar.build/Objects-normal/arm64/mac-keyboard-bar-primary.swiftconstvalues",
+    "dependencies" : "/Users/jeripurnamamaulid/Documents/15_MacOS_Projects/mac-keyboard-bar/build/Build/Intermediates.noindex/mac-keyboard-bar.build/Release/mac-keyboard-bar.build/Objects-normal/arm64/mac-keyboard-bar-primary.d",
+    "diagnostics" : "/Users/jeripurnamamaulid/Documents/15_MacOS_Projects/mac-keyboard-bar/build/Build/Intermediates.noindex/mac-keyboard-bar.build/Release/mac-keyboard-bar.build/Objects-normal/arm64/mac-keyboard-bar-primary.dia",
+    "emit-module-dependencies" : "/Users/jeripurnamamaulid/Documents/15_MacOS_Projects/mac-keyboard-bar/build/Build/Intermediates.noindex/mac-keyboard-bar.build/Release/mac-keyboard-bar.build/Objects-normal/arm64/mac-keyboard-bar-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/jeripurnamamaulid/Documents/15_MacOS_Projects/mac-keyboard-bar/build/Build/Intermediates.noindex/mac-keyboard-bar.build/Release/mac-keyboard-bar.build/Objects-normal/arm64/mac-keyboard-bar-primary-emit-module.dia",
+    "pch" : "/Users/jeripurnamamaulid/Documents/15_MacOS_Projects/mac-keyboard-bar/build/Build/Intermediates.noindex/mac-keyboard-bar.build/Release/mac-keyboard-bar.build/Objects-normal/arm64/mac-keyboard-bar-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/jeripurnamamaulid/Documents/15_MacOS_Projects/mac-keyboard-bar/build/Build/Intermediates.noindex/mac-keyboard-bar.build/Release/mac-keyboard-bar.build/Objects-normal/arm64/mac-keyboard-bar-primary.swiftdeps"
+  },
+  "/Users/jeripurnamamaulid/Documents/15_MacOS_Projects/mac-keyboard-bar/build/Build/Intermediates.noindex/mac-keyboard-bar.build/Release/mac-keyboard-bar.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "index-unit-output-path" : "/mac-keyboard-bar.build/Release/mac-keyboard-bar.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/jeripurnamamaulid/Documents/15_MacOS_Projects/mac-keyboard-bar/build/Build/Intermediates.noindex/mac-keyboard-bar.build/Release/mac-keyboard-bar.build/Objects-normal/arm64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/jeripurnamamaulid/Documents/15_MacOS_Projects/mac-keyboard-bar/build/Build/Intermediates.noindex/mac-keyboard-bar.build/Release/mac-keyboard-bar.build/Objects-normal/arm64/GeneratedAssetSymbols.o"
+  },
+  "/Users/jeripurnamamaulid/Documents/15_MacOS_Projects/mac-keyboard-bar/mac-keyboard-bar/AppDelegate.swift" : {
+    "index-unit-output-path" : "/mac-keyboard-bar.build/Release/mac-keyboard-bar.build/Objects-normal/arm64/AppDelegate.o",
+    "llvm-bc" : "/Users/jeripurnamamaulid/Documents/15_MacOS_Projects/mac-keyboard-bar/build/Build/Intermediates.noindex/mac-keyboard-bar.build/Release/mac-keyboard-bar.build/Objects-normal/arm64/AppDelegate.bc",
+    "object" : "/Users/jeripurnamamaulid/Documents/15_MacOS_Projects/mac-keyboard-bar/build/Build/Intermediates.noindex/mac-keyboard-bar.build/Release/mac-keyboard-bar.build/Objects-normal/arm64/AppDelegate.o"
+  },
+  "/Users/jeripurnamamaulid/Documents/15_MacOS_Projects/mac-keyboard-bar/mac-keyboard-bar/AppKit/FloatingPanel.swift" : {
+    "index-unit-output-path" : "/mac-keyboard-bar.build/Release/mac-keyboard-bar.build/Objects-normal/arm64/FloatingPanel.o",
+    "llvm-bc" : "/Users/jeripurnamamaulid/Documents/15_MacOS_Projects/mac-keyboard-bar/build/Build/Intermediates.noindex/mac-keyboard-bar.build/Release/mac-keyboard-bar.build/Objects-normal/arm64/FloatingPanel.bc",
+    "object" : "/Users/jeripurnamamaulid/Documents/15_MacOS_Projects/mac-keyboard-bar/build/Build/Intermediates.noindex/mac-keyboard-bar.build/Release/mac-keyboard-bar.build/Objects-normal/arm64/FloatingPanel.o"
+  },
+  "/Users/jeripurnamamaulid/Documents/15_MacOS_Projects/mac-keyboard-bar/mac-keyboard-bar/Constants/Layout.swift" : {
+    "index-unit-output-path" : "/mac-keyboard-bar.build/Release/mac-keyboard-bar.build/Objects-normal/arm64/Layout.o",
+    "llvm-bc" : "/Users/jeripurnamamaulid/Documents/15_MacOS_Projects/mac-keyboard-bar/build/Build/Intermediates.noindex/mac-keyboard-bar.build/Release/mac-keyboard-bar.build/Objects-normal/arm64/Layout.bc",
+    "object" : "/Users/jeripurnamamaulid/Documents/15_MacOS_Projects/mac-keyboard-bar/build/Build/Intermediates.noindex/mac-keyboard-bar.build/Release/mac-keyboard-bar.build/Objects-normal/arm64/Layout.o"
+  },
+  "/Users/jeripurnamamaulid/Documents/15_MacOS_Projects/mac-keyboard-bar/mac-keyboard-bar/Constants/Strings.swift" : {
+    "index-unit-output-path" : "/mac-keyboard-bar.build/Release/mac-keyboard-bar.build/Objects-normal/arm64/Strings.o",
+    "llvm-bc" : "/Users/jeripurnamamaulid/Documents/15_MacOS_Projects/mac-keyboard-bar/build/Build/Intermediates.noindex/mac-keyboard-bar.build/Release/mac-keyboard-bar.build/Objects-normal/arm64/Strings.bc",
+    "object" : "/Users/jeripurnamamaulid/Documents/15_MacOS_Projects/mac-keyboard-bar/build/Build/Intermediates.noindex/mac-keyboard-bar.build/Release/mac-keyboard-bar.build/Objects-normal/arm64/Strings.o"
+  },
+  "/Users/jeripurnamamaulid/Documents/15_MacOS_Projects/mac-keyboard-bar/mac-keyboard-bar/Entities/KeyDefinition.swift" : {
+    "index-unit-output-path" : "/mac-keyboard-bar.build/Release/mac-keyboard-bar.build/Objects-normal/arm64/KeyDefinition.o",
+    "llvm-bc" : "/Users/jeripurnamamaulid/Documents/15_MacOS_Projects/mac-keyboard-bar/build/Build/Intermediates.noindex/mac-keyboard-bar.build/Release/mac-keyboard-bar.build/Objects-normal/arm64/KeyDefinition.bc",
+    "object" : "/Users/jeripurnamamaulid/Documents/15_MacOS_Projects/mac-keyboard-bar/build/Build/Intermediates.noindex/mac-keyboard-bar.build/Release/mac-keyboard-bar.build/Objects-normal/arm64/KeyDefinition.o"
+  },
+  "/Users/jeripurnamamaulid/Documents/15_MacOS_Projects/mac-keyboard-bar/mac-keyboard-bar/Entities/KeyboardLayout.swift" : {
+    "index-unit-output-path" : "/mac-keyboard-bar.build/Release/mac-keyboard-bar.build/Objects-normal/arm64/KeyboardLayout.o",
+    "llvm-bc" : "/Users/jeripurnamamaulid/Documents/15_MacOS_Projects/mac-keyboard-bar/build/Build/Intermediates.noindex/mac-keyboard-bar.build/Release/mac-keyboard-bar.build/Objects-normal/arm64/KeyboardLayout.bc",
+    "object" : "/Users/jeripurnamamaulid/Documents/15_MacOS_Projects/mac-keyboard-bar/build/Build/Intermediates.noindex/mac-keyboard-bar.build/Release/mac-keyboard-bar.build/Objects-normal/arm64/KeyboardLayout.o"
+  },
+  "/Users/jeripurnamamaulid/Documents/15_MacOS_Projects/mac-keyboard-bar/mac-keyboard-bar/Entities/ModifierState.swift" : {
+    "index-unit-output-path" : "/mac-keyboard-bar.build/Release/mac-keyboard-bar.build/Objects-normal/arm64/ModifierState.o",
+    "llvm-bc" : "/Users/jeripurnamamaulid/Documents/15_MacOS_Projects/mac-keyboard-bar/build/Build/Intermediates.noindex/mac-keyboard-bar.build/Release/mac-keyboard-bar.build/Objects-normal/arm64/ModifierState.bc",
+    "object" : "/Users/jeripurnamamaulid/Documents/15_MacOS_Projects/mac-keyboard-bar/build/Build/Intermediates.noindex/mac-keyboard-bar.build/Release/mac-keyboard-bar.build/Objects-normal/arm64/ModifierState.o"
+  },
+  "/Users/jeripurnamamaulid/Documents/15_MacOS_Projects/mac-keyboard-bar/mac-keyboard-bar/Modules/Keyboard/KeyboardBuilder.swift" : {
+    "index-unit-output-path" : "/mac-keyboard-bar.build/Release/mac-keyboard-bar.build/Objects-normal/arm64/KeyboardBuilder.o",
+    "llvm-bc" : "/Users/jeripurnamamaulid/Documents/15_MacOS_Projects/mac-keyboard-bar/build/Build/Intermediates.noindex/mac-keyboard-bar.build/Release/mac-keyboard-bar.build/Objects-normal/arm64/KeyboardBuilder.bc",
+    "object" : "/Users/jeripurnamamaulid/Documents/15_MacOS_Projects/mac-keyboard-bar/build/Build/Intermediates.noindex/mac-keyboard-bar.build/Release/mac-keyboard-bar.build/Objects-normal/arm64/KeyboardBuilder.o"
+  },
+  "/Users/jeripurnamamaulid/Documents/15_MacOS_Projects/mac-keyboard-bar/mac-keyboard-bar/Modules/Keyboard/KeyboardInteractor.swift" : {
+    "index-unit-output-path" : "/mac-keyboard-bar.build/Release/mac-keyboard-bar.build/Objects-normal/arm64/KeyboardInteractor.o",
+    "llvm-bc" : "/Users/jeripurnamamaulid/Documents/15_MacOS_Projects/mac-keyboard-bar/build/Build/Intermediates.noindex/mac-keyboard-bar.build/Release/mac-keyboard-bar.build/Objects-normal/arm64/KeyboardInteractor.bc",
+    "object" : "/Users/jeripurnamamaulid/Documents/15_MacOS_Projects/mac-keyboard-bar/build/Build/Intermediates.noindex/mac-keyboard-bar.build/Release/mac-keyboard-bar.build/Objects-normal/arm64/KeyboardInteractor.o"
+  },
+  "/Users/jeripurnamamaulid/Documents/15_MacOS_Projects/mac-keyboard-bar/mac-keyboard-bar/Modules/Keyboard/KeyboardPresenter.swift" : {
+    "index-unit-output-path" : "/mac-keyboard-bar.build/Release/mac-keyboard-bar.build/Objects-normal/arm64/KeyboardPresenter.o",
+    "llvm-bc" : "/Users/jeripurnamamaulid/Documents/15_MacOS_Projects/mac-keyboard-bar/build/Build/Intermediates.noindex/mac-keyboard-bar.build/Release/mac-keyboard-bar.build/Objects-normal/arm64/KeyboardPresenter.bc",
+    "object" : "/Users/jeripurnamamaulid/Documents/15_MacOS_Projects/mac-keyboard-bar/build/Build/Intermediates.noindex/mac-keyboard-bar.build/Release/mac-keyboard-bar.build/Objects-normal/arm64/KeyboardPresenter.o"
+  },
+  "/Users/jeripurnamamaulid/Documents/15_MacOS_Projects/mac-keyboard-bar/mac-keyboard-bar/Modules/Keyboard/KeyboardProtocols.swift" : {
+    "index-unit-output-path" : "/mac-keyboard-bar.build/Release/mac-keyboard-bar.build/Objects-normal/arm64/KeyboardProtocols.o",
+    "llvm-bc" : "/Users/jeripurnamamaulid/Documents/15_MacOS_Projects/mac-keyboard-bar/build/Build/Intermediates.noindex/mac-keyboard-bar.build/Release/mac-keyboard-bar.build/Objects-normal/arm64/KeyboardProtocols.bc",
+    "object" : "/Users/jeripurnamamaulid/Documents/15_MacOS_Projects/mac-keyboard-bar/build/Build/Intermediates.noindex/mac-keyboard-bar.build/Release/mac-keyboard-bar.build/Objects-normal/arm64/KeyboardProtocols.o"
+  },
+  "/Users/jeripurnamamaulid/Documents/15_MacOS_Projects/mac-keyboard-bar/mac-keyboard-bar/Modules/Keyboard/KeyboardRouter.swift" : {
+    "index-unit-output-path" : "/mac-keyboard-bar.build/Release/mac-keyboard-bar.build/Objects-normal/arm64/KeyboardRouter.o",
+    "llvm-bc" : "/Users/jeripurnamamaulid/Documents/15_MacOS_Projects/mac-keyboard-bar/build/Build/Intermediates.noindex/mac-keyboard-bar.build/Release/mac-keyboard-bar.build/Objects-normal/arm64/KeyboardRouter.bc",
+    "object" : "/Users/jeripurnamamaulid/Documents/15_MacOS_Projects/mac-keyboard-bar/build/Build/Intermediates.noindex/mac-keyboard-bar.build/Release/mac-keyboard-bar.build/Objects-normal/arm64/KeyboardRouter.o"
+  },
+  "/Users/jeripurnamamaulid/Documents/15_MacOS_Projects/mac-keyboard-bar/mac-keyboard-bar/Modules/Keyboard/KeyboardWindowController.swift" : {
+    "index-unit-output-path" : "/mac-keyboard-bar.build/Release/mac-keyboard-bar.build/Objects-normal/arm64/KeyboardWindowController.o",
+    "llvm-bc" : "/Users/jeripurnamamaulid/Documents/15_MacOS_Projects/mac-keyboard-bar/build/Build/Intermediates.noindex/mac-keyboard-bar.build/Release/mac-keyboard-bar.build/Objects-normal/arm64/KeyboardWindowController.bc",
+    "object" : "/Users/jeripurnamamaulid/Documents/15_MacOS_Projects/mac-keyboard-bar/build/Build/Intermediates.noindex/mac-keyboard-bar.build/Release/mac-keyboard-bar.build/Objects-normal/arm64/KeyboardWindowController.o"
+  },
+  "/Users/jeripurnamamaulid/Documents/15_MacOS_Projects/mac-keyboard-bar/mac-keyboard-bar/Modules/MenuBar/MenuBarBuilder.swift" : {
+    "index-unit-output-path" : "/mac-keyboard-bar.build/Release/mac-keyboard-bar.build/Objects-normal/arm64/MenuBarBuilder.o",
+    "llvm-bc" : "/Users/jeripurnamamaulid/Documents/15_MacOS_Projects/mac-keyboard-bar/build/Build/Intermediates.noindex/mac-keyboard-bar.build/Release/mac-keyboard-bar.build/Objects-normal/arm64/MenuBarBuilder.bc",
+    "object" : "/Users/jeripurnamamaulid/Documents/15_MacOS_Projects/mac-keyboard-bar/build/Build/Intermediates.noindex/mac-keyboard-bar.build/Release/mac-keyboard-bar.build/Objects-normal/arm64/MenuBarBuilder.o"
+  },
+  "/Users/jeripurnamamaulid/Documents/15_MacOS_Projects/mac-keyboard-bar/mac-keyboard-bar/Modules/MenuBar/MenuBarController.swift" : {
+    "index-unit-output-path" : "/mac-keyboard-bar.build/Release/mac-keyboard-bar.build/Objects-normal/arm64/MenuBarController.o",
+    "llvm-bc" : "/Users/jeripurnamamaulid/Documents/15_MacOS_Projects/mac-keyboard-bar/build/Build/Intermediates.noindex/mac-keyboard-bar.build/Release/mac-keyboard-bar.build/Objects-normal/arm64/MenuBarController.bc",
+    "object" : "/Users/jeripurnamamaulid/Documents/15_MacOS_Projects/mac-keyboard-bar/build/Build/Intermediates.noindex/mac-keyboard-bar.build/Release/mac-keyboard-bar.build/Objects-normal/arm64/MenuBarController.o"
+  },
+  "/Users/jeripurnamamaulid/Documents/15_MacOS_Projects/mac-keyboard-bar/mac-keyboard-bar/Modules/MenuBar/MenuBarPresenter.swift" : {
+    "index-unit-output-path" : "/mac-keyboard-bar.build/Release/mac-keyboard-bar.build/Objects-normal/arm64/MenuBarPresenter.o",
+    "llvm-bc" : "/Users/jeripurnamamaulid/Documents/15_MacOS_Projects/mac-keyboard-bar/build/Build/Intermediates.noindex/mac-keyboard-bar.build/Release/mac-keyboard-bar.build/Objects-normal/arm64/MenuBarPresenter.bc",
+    "object" : "/Users/jeripurnamamaulid/Documents/15_MacOS_Projects/mac-keyboard-bar/build/Build/Intermediates.noindex/mac-keyboard-bar.build/Release/mac-keyboard-bar.build/Objects-normal/arm64/MenuBarPresenter.o"
+  },
+  "/Users/jeripurnamamaulid/Documents/15_MacOS_Projects/mac-keyboard-bar/mac-keyboard-bar/Modules/MenuBar/MenuBarProtocols.swift" : {
+    "index-unit-output-path" : "/mac-keyboard-bar.build/Release/mac-keyboard-bar.build/Objects-normal/arm64/MenuBarProtocols.o",
+    "llvm-bc" : "/Users/jeripurnamamaulid/Documents/15_MacOS_Projects/mac-keyboard-bar/build/Build/Intermediates.noindex/mac-keyboard-bar.build/Release/mac-keyboard-bar.build/Objects-normal/arm64/MenuBarProtocols.bc",
+    "object" : "/Users/jeripurnamamaulid/Documents/15_MacOS_Projects/mac-keyboard-bar/build/Build/Intermediates.noindex/mac-keyboard-bar.build/Release/mac-keyboard-bar.build/Objects-normal/arm64/MenuBarProtocols.o"
+  },
+  "/Users/jeripurnamamaulid/Documents/15_MacOS_Projects/mac-keyboard-bar/mac-keyboard-bar/Services/AccessibilityService.swift" : {
+    "index-unit-output-path" : "/mac-keyboard-bar.build/Release/mac-keyboard-bar.build/Objects-normal/arm64/AccessibilityService.o",
+    "llvm-bc" : "/Users/jeripurnamamaulid/Documents/15_MacOS_Projects/mac-keyboard-bar/build/Build/Intermediates.noindex/mac-keyboard-bar.build/Release/mac-keyboard-bar.build/Objects-normal/arm64/AccessibilityService.bc",
+    "object" : "/Users/jeripurnamamaulid/Documents/15_MacOS_Projects/mac-keyboard-bar/build/Build/Intermediates.noindex/mac-keyboard-bar.build/Release/mac-keyboard-bar.build/Objects-normal/arm64/AccessibilityService.o"
+  },
+  "/Users/jeripurnamamaulid/Documents/15_MacOS_Projects/mac-keyboard-bar/mac-keyboard-bar/Services/KeyInjectionService.swift" : {
+    "index-unit-output-path" : "/mac-keyboard-bar.build/Release/mac-keyboard-bar.build/Objects-normal/arm64/KeyInjectionService.o",
+    "llvm-bc" : "/Users/jeripurnamamaulid/Documents/15_MacOS_Projects/mac-keyboard-bar/build/Build/Intermediates.noindex/mac-keyboard-bar.build/Release/mac-keyboard-bar.build/Objects-normal/arm64/KeyInjectionService.bc",
+    "object" : "/Users/jeripurnamamaulid/Documents/15_MacOS_Projects/mac-keyboard-bar/build/Build/Intermediates.noindex/mac-keyboard-bar.build/Release/mac-keyboard-bar.build/Objects-normal/arm64/KeyInjectionService.o"
+  },
+  "/Users/jeripurnamamaulid/Documents/15_MacOS_Projects/mac-keyboard-bar/mac-keyboard-bar/Services/WindowPositionService.swift" : {
+    "index-unit-output-path" : "/mac-keyboard-bar.build/Release/mac-keyboard-bar.build/Objects-normal/arm64/WindowPositionService.o",
+    "llvm-bc" : "/Users/jeripurnamamaulid/Documents/15_MacOS_Projects/mac-keyboard-bar/build/Build/Intermediates.noindex/mac-keyboard-bar.build/Release/mac-keyboard-bar.build/Objects-normal/arm64/WindowPositionService.bc",
+    "object" : "/Users/jeripurnamamaulid/Documents/15_MacOS_Projects/mac-keyboard-bar/build/Build/Intermediates.noindex/mac-keyboard-bar.build/Release/mac-keyboard-bar.build/Objects-normal/arm64/WindowPositionService.o"
+  },
+  "/Users/jeripurnamamaulid/Documents/15_MacOS_Projects/mac-keyboard-bar/mac-keyboard-bar/UI/KeyButtonView.swift" : {
+    "index-unit-output-path" : "/mac-keyboard-bar.build/Release/mac-keyboard-bar.build/Objects-normal/arm64/KeyButtonView.o",
+    "llvm-bc" : "/Users/jeripurnamamaulid/Documents/15_MacOS_Projects/mac-keyboard-bar/build/Build/Intermediates.noindex/mac-keyboard-bar.build/Release/mac-keyboard-bar.build/Objects-normal/arm64/KeyButtonView.bc",
+    "object" : "/Users/jeripurnamamaulid/Documents/15_MacOS_Projects/mac-keyboard-bar/build/Build/Intermediates.noindex/mac-keyboard-bar.build/Release/mac-keyboard-bar.build/Objects-normal/arm64/KeyButtonView.o"
+  },
+  "/Users/jeripurnamamaulid/Documents/15_MacOS_Projects/mac-keyboard-bar/mac-keyboard-bar/UI/KeyRowView.swift" : {
+    "index-unit-output-path" : "/mac-keyboard-bar.build/Release/mac-keyboard-bar.build/Objects-normal/arm64/KeyRowView.o",
+    "llvm-bc" : "/Users/jeripurnamamaulid/Documents/15_MacOS_Projects/mac-keyboard-bar/build/Build/Intermediates.noindex/mac-keyboard-bar.build/Release/mac-keyboard-bar.build/Objects-normal/arm64/KeyRowView.bc",
+    "object" : "/Users/jeripurnamamaulid/Documents/15_MacOS_Projects/mac-keyboard-bar/build/Build/Intermediates.noindex/mac-keyboard-bar.build/Release/mac-keyboard-bar.build/Objects-normal/arm64/KeyRowView.o"
+  },
+  "/Users/jeripurnamamaulid/Documents/15_MacOS_Projects/mac-keyboard-bar/mac-keyboard-bar/UI/KeyboardView.swift" : {
+    "index-unit-output-path" : "/mac-keyboard-bar.build/Release/mac-keyboard-bar.build/Objects-normal/arm64/KeyboardView.o",
+    "llvm-bc" : "/Users/jeripurnamamaulid/Documents/15_MacOS_Projects/mac-keyboard-bar/build/Build/Intermediates.noindex/mac-keyboard-bar.build/Release/mac-keyboard-bar.build/Objects-normal/arm64/KeyboardView.bc",
+    "object" : "/Users/jeripurnamamaulid/Documents/15_MacOS_Projects/mac-keyboard-bar/build/Build/Intermediates.noindex/mac-keyboard-bar.build/Release/mac-keyboard-bar.build/Objects-normal/arm64/KeyboardView.o"
+  },
+  "/Users/jeripurnamamaulid/Documents/15_MacOS_Projects/mac-keyboard-bar/mac-keyboard-bar/main.swift" : {
+    "index-unit-output-path" : "/mac-keyboard-bar.build/Release/mac-keyboard-bar.build/Objects-normal/arm64/main.o",
+    "llvm-bc" : "/Users/jeripurnamamaulid/Documents/15_MacOS_Projects/mac-keyboard-bar/build/Build/Intermediates.noindex/mac-keyboard-bar.build/Release/mac-keyboard-bar.build/Objects-normal/arm64/main.bc",
+    "object" : "/Users/jeripurnamamaulid/Documents/15_MacOS_Projects/mac-keyboard-bar/build/Build/Intermediates.noindex/mac-keyboard-bar.build/Release/mac-keyboard-bar.build/Objects-normal/arm64/main.o"
+  }
+}

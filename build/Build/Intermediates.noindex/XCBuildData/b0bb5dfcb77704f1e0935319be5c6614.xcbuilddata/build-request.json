@@ -1,0 +1,63 @@
+{
+  "buildCommand" : {
+    "command" : "build",
+    "skipDependencies" : false,
+    "style" : "buildOnly"
+  },
+  "configuredTargets" : [
+    {
+      "guid" : "b75610e9349689a8f1efd86936c00d4b3e829d3835434566c64aac7c61e055dd"
+    }
+  ],
+  "containerPath" : "/Users/jeripurnamamaulid/Documents/15_MacOS_Projects/mac-keyboard-bar/mac-keyboard-bar.xcodeproj",
+  "continueBuildingAfterErrors" : false,
+  "dependencyScope" : "workspace",
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "arm64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "macosx",
+      "sdk" : "macosx26.2",
+      "sdkVariant" : "macos",
+      "supportedArchitectures" : [
+        "arm64e",
+        "arm64",
+        "x86_64"
+      ],
+      "targetArchitecture" : "arm64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/jeripurnamamaulid/Documents/15_MacOS_Projects/mac-keyboard-bar/build/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/jeripurnamamaulid/Documents/15_MacOS_Projects/mac-keyboard-bar/build/Build/Products",
+      "derivedDataPath" : "/Users/jeripurnamamaulid/Documents/15_MacOS_Projects/mac-keyboard-bar/build",
+      "indexDataStoreFolderPath" : "/Users/jeripurnamamaulid/Documents/15_MacOS_Projects/mac-keyboard-bar/build/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/jeripurnamamaulid/Documents/15_MacOS_Projects/mac-keyboard-bar/build/Index.noindex/PrecompiledHeaders",
+      "pchPath" : "/Users/jeripurnamamaulid/Documents/15_MacOS_Projects/mac-keyboard-bar/build/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Release",
+    "overrides" : {
+      "commandLine" : {
+        "table" : {
+
+        }
+      },
+      "synthesized" : {
+        "table" : {
+          "ACTION" : "build",
+          "ENABLE_PREVIEWS" : "NO",
+          "ENABLE_XOJIT_PREVIEWS" : "YES"
+        }
+      }
+    }
+  },
+  "schemeCommand" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}
